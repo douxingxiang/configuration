@@ -1,0 +1,31 @@
+"""""""""""""""
+" 插件管理
+"""""""""""""""
+" 去除vi一致性
+set nocompatible 
+
+filetype off
+
+"初始化vundle运行路径, +=附近不能用空格
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" vundle管理插件
+Plugin 'VundleVim/Vundle.vim'
+
+" 插件列表
+" emmet
+Plugin 'mattn/emmet-vim'
+
+call vundle#end()
+filetype plugin indent on
+
+" 语法高亮
+syntax on
+
+" 继承上一行缩进
+set autoindent
+" 设置制表符长度
+set tabstop=4
+
+
