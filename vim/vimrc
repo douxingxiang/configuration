@@ -27,5 +27,12 @@ syntax on
 set autoindent
 " 设置制表符长度
 set tabstop=4
+" tab实际宽度
+set softtabstop=4
+"<<>>缩进的tab宽度
+set shiftwidth=4
+" 扩展tab为空格
+set expandtab
 
-
+"高亮
+set hlsearch
